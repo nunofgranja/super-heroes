@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ui-super-heroes" />
         <module name="rest-villain" />
+        <module name="rest-hero" />
+        <module name="ui-super-heroes" />
         <module name="load-super-heroes" />
       </profile>
       <profile name="Annotation profile for Quarkus Workshop :: Super-Heroes - R00T" enabled="true">
@@ -53,8 +54,8 @@
           <entry name="$MAVEN_REPOSITORY$/org/jruby/jruby-stdlib/9.2.11.1/jruby-stdlib-9.2.11.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/com/beust/jcommander/1.72/jcommander-1.72.jar" />
         </processorPath>
-        <module name="extension-fault-injector-deployment" />
         <module name="extension-fault-injector" />
+        <module name="extension-fault-injector-deployment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -62,6 +63,7 @@
       <module name="extension-fault-injector-deployment" target="1.8" />
       <module name="extension-fault-injector-parent" target="1.8" />
       <module name="load-super-heroes" target="1.8" />
+      <module name="rest-hero" target="11" />
       <module name="rest-villain" target="1.8" />
       <module name="super-parent-root" target="1.5" />
       <module name="ui-super-heroes" target="1.8" />
